@@ -109,3 +109,7 @@ sudo mount -t cifs -o user='사용자이름' //서버주소/공유폴더 마운�
     //192.168.0.1/master  /mnt/master-file cifs username=mifile,password=12345,uid=seongsil,gid=master,file_mode=0775,dir_mode=0775 0 0
 
  
+ sudo mount -al
+ 했을 때 오류 없다면 reboot해서도 제대로 마운트 될것임.
+ 
+ df  -h  명령어로 mount된  
