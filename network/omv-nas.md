@@ -82,6 +82,8 @@ sftp -oPort=<포트번호> <아이디>@<ip주소>
 <br/>
 ![62623249-5d4cfd80-b95b-11e9-80c8-bf221986423b (1)](https://user-images.githubusercontent.com/44438752/62628787-f0d7fb80-b966-11e9-8fda-d3b7b1906478.png)
 
+smbclient 
+
 <br/><br/>
 
 6-4. 클라이언트 환경에 폴더 생성
