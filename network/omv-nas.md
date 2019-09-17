@@ -92,7 +92,7 @@ vi seongsil
 <br/><br/>
 ![aa](https://user-images.githubusercontent.com/44438752/62623485-ec5a1580-b95b-11e9-8ee9-31c8285cbaba.png)
 6-5. 마운트 하기
-sudo mount -t cifs -o user='사용자이름' //서버주소/공유폴더 마운트경로  (파일의 권한 설정을 위해서는 다음과  옵션을  추가하면 됨.uid=seongsil,gid=master,file_mode=0775,dir_mode=0775)
+sudo mount -t cifs -o username='사용자이름',password='패스워드' //서버주소/공유폴더 마운트경로  (파일의 권한 설정을 위해서는 다음과  옵션을  추가하면 됨.uid=seongsil,gid=master,file_mode=0775,dir_mode=0775)
 
 ![dde](https://user-images.githubusercontent.com/44438752/62629107-85425e00-b967-11e9-86d2-8b12259d0e4d.png)
 <br/><br/>
